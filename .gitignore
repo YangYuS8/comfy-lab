@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ComfyUI runtime data
+models/
+input/
+output/
+temp/
+user/
+custom_nodes/
+
+# Generated artifacts
+artifacts/
+generated/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.gguf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
