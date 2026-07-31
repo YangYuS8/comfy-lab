@@ -1,0 +1,17 @@
+schema_version: 1
+comfy_root: /home/yangyus8/comfy/ComfyUI
+
+models:
+  - id: sd15-pruned-emaonly-fp16
+    filename: v1-5-pruned-emaonly-fp16.safetensors
+    kind: checkpoint
+    relative_path: models/checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+    source_repository: Comfy-Org/stable-diffusion-v1-5-archive
+    source_url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors
+    size_bytes: null
+    sha256: TODO_BY_LUNA
+    license: unverified
+    verification_status: installed_unverified
+    notes: >-
+      用户已使用该 checkpoint 完成第一次基础文生图。Luna 必须在 Fedora
+      上计算文件大小与 SHA256，并依据上游模型卡补充许可证信息，不得猜测。
