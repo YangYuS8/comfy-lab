@@ -8,10 +8,11 @@ models:
     relative_path: models/checkpoints/v1-5-pruned-emaonly-fp16.safetensors
     source_repository: Comfy-Org/stable-diffusion-v1-5-archive
     source_url: https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors
-    size_bytes: null
-    sha256: TODO_BY_LUNA
-    license: unverified
-    verification_status: installed_unverified
+    size_bytes: 2132696762
+    sha256: e9476a13728cd75d8279f6ec8bad753a66a1957ca375a1464dc63b37db6e3916
+    license: creativeml-openrail-m
+    verification_status: installed_verified_on_fedora_2026-07-31
     notes: >-
-      用户已使用该 checkpoint 完成第一次基础文生图。Luna 必须在 Fedora
-      上计算文件大小与 SHA256，并依据上游模型卡补充许可证信息，不得猜测。
+      Fedora 上于 2026-07-31 使用 stat 和 sha256sum 直接核验。上游模型卡：
+      https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/blob/main/README.md
+      说明此 FP16 文件由原始 v1.5 转换并添加 metadata header。
